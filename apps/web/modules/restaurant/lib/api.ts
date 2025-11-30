@@ -2,6 +2,7 @@ import {
   MenuResponse,
   RestaurantCategoryResponse,
   RestaurantResponse,
+  ReviewResponse,
 } from "./types";
 
 export async function fetchRestaurant(
@@ -29,4 +30,13 @@ export async function fetchRestaurantCategories(
     `http://localhost:3002/categories?ids=${categoryIds.join(",")}`,
   );
   return await response.json();
+}
+
+export async function fetchRestaurantReviews(
+  restaurantId: string,
+): Promise<ReviewResponse[]> {
+  const response = await fetch(
+    `http://localhost:3002/restaurants/${restaurantId}/reviews`,
+  );
+  return response.json();
 }
