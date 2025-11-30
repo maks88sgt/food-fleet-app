@@ -2,31 +2,31 @@ import {
   MenuResponse,
   RestaurantCategoryResponse,
   RestaurantResponse,
-} from './types'
+} from "./types";
 
 export async function fetchRestaurant(
-  restaurantId: string
+  restaurantId: string,
 ): Promise<RestaurantResponse> {
   const response = await fetch(
-    `http://localhost:3002/restaurants/${restaurantId}`
-  )
-  return await response.json()
+    `http://localhost:3002/restaurants/${restaurantId}`,
+  );
+  return await response.json();
 }
 
 export async function fetchRestaurantMenu(
-  restaurantId: string
+  restaurantId: string,
 ): Promise<MenuResponse> {
   const response = await fetch(
-    `http://localhost:3002/restaurants/${restaurantId}/menu`
-  )
-  return await response.json()
+    `http://localhost:3002/restaurants/${restaurantId}/menu`,
+  );
+  return await response.json();
 }
 
 export async function fetchRestaurantCategories(
-  categoryIds: string[]
+  categoryIds: string[],
 ): Promise<RestaurantCategoryResponse[]> {
   const response = await fetch(
-    `http://localhost:3002/categories?ids=${categoryIds.join(',')}`
-  )
-  return await response.json()
+    `http://localhost:3002/categories?ids=${categoryIds.join(",")}`,
+  );
+  return await response.json();
 }
