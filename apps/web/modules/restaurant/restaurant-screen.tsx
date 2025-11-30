@@ -19,19 +19,18 @@ export function RestaurantScreen() {
             <DeliveryPrompt />
           </div>
           <div className="col-span-1 col-start-3 row-span-3">
-            <RestaurantDelivery/>
+            <RestaurantDelivery />
           </div>
           <div className="col-span-2 row-span-2">
             <RatingAndReviewsSummary />
           </div>
-          
         </div>
-          <FeaturedCarousel />
-          <SearchBar/>
-          <MenuItemsList />
-          <Reviews />
-          <FAQ />
-          <LegalDisclaimer />
+        <FeaturedCarousel />
+        <SearchBar />
+        <MenuItemsList />
+        <Reviews />
+        <FAQ />
+        <LegalDisclaimer />
       </main>
     </div>
   );

@@ -1,5 +1,5 @@
-import { RestaurantScreen } from '../../../modules/restaurant/restaurant-screen'
+import { RestaurantScreen } from "../../../modules/restaurant/restaurant-screen";
 
 export default function Home() {
-  return <RestaurantScreen />
+  return <RestaurantScreen />;
 }

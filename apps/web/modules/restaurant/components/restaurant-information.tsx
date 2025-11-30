@@ -7,5 +7,5 @@ export function RestaurantInformation() {
         <p>4.5 ★ • 1.2k reviews</p>
       </div>
     </div>
-  )
+  );
 }
