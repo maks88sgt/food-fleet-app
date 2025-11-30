@@ -1,6 +1,12 @@
 import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
-import { restaurants, menuItemCategories, menuItems, reviews } from './db'
+import {
+  restaurants,
+  restaurantCategories,
+  menuItemCategories,
+  menuItems,
+  reviews,
+} from './db'
 const app = new Hono()
 
 app.get('/', (c) => {
@@ -47,6 +53,17 @@ app.get('/restaurants/:restaurantId/reviews', async (c) => {
   }
 
   return c.json(reviews[restaurantId as keyof typeof reviews])
+})
+
+app.get('/categories', async (c) => {
+  const { ids } = c.req.query()
+  const categoryIds = ids?.split(',')
+  const categories =
+    categoryIds && categoryIds.length > 0
+      ? restaurantCategories.filter((c) => categoryIds.includes(c.id))
+      : restaurantCategories
+
+  return c.json(categories)
 })
 
 const port = 3002
