@@ -14,7 +14,7 @@ export default function Header() {
             />
           </button>
           <Link href="/" className="p-2">
-            <h1 className="text-2xl font-bold">FullSnack</h1>
+            <h1 className="text-2xl font-bold">Food Fleet</h1>
           </Link>
         </div>
         <div className="flex space-x-2">
