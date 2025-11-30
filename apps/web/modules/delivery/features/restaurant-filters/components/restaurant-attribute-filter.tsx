@@ -1,13 +1,13 @@
 const filters = [
-  'Offers',
-  'Delivery fee',
-  'Under 30 min',
-  'Best overall',
-  'Rating',
-  'Price',
-  'Dietary',
-  'Sort',
-]
+  "Offers",
+  "Delivery fee",
+  "Under 30 min",
+  "Best overall",
+  "Rating",
+  "Price",
+  "Dietary",
+  "Sort",
+];
 
 const RestaurantAttributeFilter = () => {
   return (
@@ -21,7 +21,7 @@ const RestaurantAttributeFilter = () => {
         </button>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default RestaurantAttributeFilter
+export default RestaurantAttributeFilter;

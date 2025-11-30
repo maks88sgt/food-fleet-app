@@ -1,10 +1,10 @@
-import { Restaurant } from '@repo/types'
-import RestaurantCard from '@repo/ui/restaurant-card'
+import { Restaurant } from "@repo/types";
+import RestaurantCard from "@repo/ui/restaurant-card";
 
 type Props = {
-  restaurants: Restaurant[]
-  title: string
-}
+  restaurants: Restaurant[];
+  title: string;
+};
 
 const RestaurantCarousel = ({ restaurants, title }: Props) => {
   return (
@@ -16,7 +16,7 @@ const RestaurantCarousel = ({ restaurants, title }: Props) => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default RestaurantCarousel
+export default RestaurantCarousel;

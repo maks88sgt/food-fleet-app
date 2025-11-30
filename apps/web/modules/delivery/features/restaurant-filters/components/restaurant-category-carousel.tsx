@@ -1,18 +1,18 @@
 const categories = [
-  { name: 'Grocery', icon: '/icons/Grocery.png' },
-  { name: 'Fast Food', icon: '/icons/FastFood.png' },
-  { name: 'Breakfast', icon: '/icons/Breakfast.png' },
-  { name: 'Pizza', icon: '/icons/Pizza.png' },
-  { name: 'Healthy', icon: '/icons/Healthy.png' },
-  { name: 'Chinese', icon: '/icons/Chinese.png' },
-  { name: 'Coffee', icon: '/icons/Coffee.png' },
-  { name: 'Happy Hour', icon: '/icons/HappyHour.png' },
-  { name: 'Sandwich', icon: '/icons/Sandwich.png' },
-  { name: 'Sushi', icon: '/icons/Sushi.png' },
-  { name: 'Thai', icon: '/icons/Thai.png' },
-  { name: 'Bubble Tea', icon: '/icons/BubbleTea.png' },
-  { name: 'Salads', icon: '/icons/Salad.png' },
-]
+  { name: "Grocery", icon: "/icons/Grocery.png" },
+  { name: "Fast Food", icon: "/icons/FastFood.png" },
+  { name: "Breakfast", icon: "/icons/Breakfast.png" },
+  { name: "Pizza", icon: "/icons/Pizza.png" },
+  { name: "Healthy", icon: "/icons/Healthy.png" },
+  { name: "Chinese", icon: "/icons/Chinese.png" },
+  { name: "Coffee", icon: "/icons/Coffee.png" },
+  { name: "Happy Hour", icon: "/icons/HappyHour.png" },
+  { name: "Sandwich", icon: "/icons/Sandwich.png" },
+  { name: "Sushi", icon: "/icons/Sushi.png" },
+  { name: "Thai", icon: "/icons/Thai.png" },
+  { name: "Bubble Tea", icon: "/icons/BubbleTea.png" },
+  { name: "Salads", icon: "/icons/Salad.png" },
+];
 
 const RestaurantCategoryCarousel = () => {
   return (
@@ -28,7 +28,7 @@ const RestaurantCategoryCarousel = () => {
         &gt;
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default RestaurantCategoryCarousel
+export default RestaurantCategoryCarousel;

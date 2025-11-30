@@ -1,8 +1,8 @@
-import { Offer } from '../types'
+import { Offer } from "../types";
 
 type Props = {
-  offer: Offer
-}
+  offer: Offer;
+};
 const FeaturedOfferCard = ({ offer }: Props) => {
   return (
     <div
@@ -22,7 +22,7 @@ const FeaturedOfferCard = ({ offer }: Props) => {
         className="absolute bottom-0 right-0 w-1/3 h-full object-cover"
       />
     </div>
-  )
-}
+  );
+};
 
-export default FeaturedOfferCard
+export default FeaturedOfferCard;

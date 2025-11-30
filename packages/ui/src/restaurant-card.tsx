@@ -1,4 +1,4 @@
-import { Restaurant } from '@repo/types'
+import { Restaurant } from "@repo/types";
 
 const RestaurantCard = ({ restaurant }: { restaurant: Restaurant }) => {
   return (
@@ -17,7 +17,7 @@ const RestaurantCard = ({ restaurant }: { restaurant: Restaurant }) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default RestaurantCard
+export default RestaurantCard;

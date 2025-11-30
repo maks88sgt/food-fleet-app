@@ -1,9 +1,9 @@
-import FeaturedOfferCard from './components/featured-offer-card'
-import { Offer } from './types'
+import FeaturedOfferCard from "./components/featured-offer-card";
+import { Offer } from "./types";
 
 type Props = {
-  offers: Offer[]
-}
+  offers: Offer[];
+};
 
 const FeaturedOffersCarousel = ({ offers }: Props) => {
   return (
@@ -20,7 +20,7 @@ const FeaturedOffersCarousel = ({ offers }: Props) => {
         </button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default FeaturedOffersCarousel
+export default FeaturedOffersCarousel;

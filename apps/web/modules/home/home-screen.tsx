@@ -1,8 +1,8 @@
-'use client'
-import { useRouter } from 'next/navigation'
+"use client";
+import { useRouter } from "next/navigation";
 
 export function HomeScreen() {
-  const router = useRouter()
+  const router = useRouter();
 
   return (
     <div className="p-4 md:p-8">
@@ -31,7 +31,7 @@ export function HomeScreen() {
             <button
               className="bg-black text-white p-3 rounded-lg font-semibold hover:bg-gray-800"
               onClick={() => {
-                router.push('/delivery')
+                router.push("/delivery");
               }}
             >
               Search here
@@ -46,5 +46,5 @@ export function HomeScreen() {
         </div>
       </div>
     </div>
-  )
+  );
 }

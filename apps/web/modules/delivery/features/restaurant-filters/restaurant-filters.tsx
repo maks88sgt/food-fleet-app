@@ -1,6 +1,6 @@
-import React from 'react'
-import RestaurantCategoryCarousel from './components/restaurant-category-carousel'
-import RestaurantAttributeFilter from './components/restaurant-attribute-filter'
+import React from "react";
+import RestaurantCategoryCarousel from "./components/restaurant-category-carousel";
+import RestaurantAttributeFilter from "./components/restaurant-attribute-filter";
 
 const RestaurantFilters = () => {
   return (
@@ -8,7 +8,7 @@ const RestaurantFilters = () => {
       <RestaurantCategoryCarousel />
       <RestaurantAttributeFilter />
     </div>
-  )
-}
+  );
+};
 
-export default RestaurantFilters
+export default RestaurantFilters;

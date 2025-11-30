@@ -1,5 +1,5 @@
-import { HomeScreen } from '../modules/home/home-screen'
+import { HomeScreen } from "../modules/home/home-screen";
 
 export default function Home() {
-  return <HomeScreen />
+  return <HomeScreen />;
 }
