@@ -26,7 +26,7 @@ export const restaurants = [
           date: '2024-01-01',
           user: {
             id: '1',
-            name: 'John Doe',
+            name: 'John Deer',
           },
         },
         {
@@ -36,7 +36,7 @@ export const restaurants = [
           date: '2024-01-02',
           user: {
             id: '2',
-            name: 'Jane Doe',
+            name: 'Harry Porter',
           },
         },
         {
@@ -46,7 +46,7 @@ export const restaurants = [
           date: '2024-01-03',
           user: {
             id: '3',
-            name: 'John Smith',
+            name: 'Adam Smith',
           },
         },
       ],
@@ -337,6 +337,7 @@ export const reviews = {
     {
       id: '10',
       rating: 4.5,
+      comment: "Amazing food. It's my favorite restaurant",
       date: '2024-01-01',
       user: {
         id: '1',
